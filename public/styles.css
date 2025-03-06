@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Changed to light grey */
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px; /* Added margin to create space from the top */
+    display: block; /* Centering the logo */
+    margin-left: auto; /* Centering the logo */
+    margin-right: auto; /* Centering the logo */
+}
+
+nav {
+    display: block; 
+    margin: 20px auto;
+    width: 80%;
+    flex-grow: 1;
+    margin-top: 10px; /* Added margin to create gap below the logo */
+    display: flex; /* Centering the nav */
+    justify-content: center; /* Centering the nav items */
+    background-color: green; /* Set nav background to white */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Added border to create box effect */
+    padding: 10px; /* Added padding for better appearance */
+}
+
+nav a {
+    color: white; /* Updated to white for section cutter */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.welcome-bar {
+    background-color: #f1f1c1;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Added margin to create space below the welcome bar */
+}
+
+.main-page-link {
+    color: blue;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 400px; /* Added margin to create space between main page link and logout */
+}
+
+.logout-link {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Form Styling */
+.form-container {
+   
+    margin: 20px auto; /* Centering the form container */
+    padding: 20px;
+    background-color: 	#eeeeee ;
+    width: 70%;
+    border: 1px solid #ddd;
+    display: flex; /* Centering the form contents */
+    flex-direction: row; /* Aligning items in a row */
+    align-items: center; /* Centering items vertically */
+}
+
+input {
+    padding: 5px;
+    margin-left: 20px; /* Added margin to shift input to the right */
+    margin-right: 10px; /* Added margin to create space between input and button */
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-left: 600px;
+   
+    cursor: pointer;
+}
+label{
+    margin-left: 200px;
+}
+span
+{
+     color: white
+}
